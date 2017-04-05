@@ -1,0 +1,8 @@
+{
+  "events": {
+    "restart": "echo 'MT: nodemon has restarted.'",
+    "start": "echo 'MT: nodemon started.'",
+    "crash": "echo 'MT: nodemon has crashed.'",
+    "exit": "echo 'MT: nodemon exited successfully -- opening sample doc' && open index.html"
+  }
+}

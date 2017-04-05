@@ -1,0 +1,16 @@
+{
+  "name": "pdfmakeplayground",
+  "version": "1.0.0",
+  "description": "Easy environment for prototyping with pdfmake with nodemon reloading and auto doc preview on OS X",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin-Ting",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "pdfmake": "0.1.18"
+  }
+}
